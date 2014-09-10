@@ -12,6 +12,8 @@
 		071305FB19BF9A260000D1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071305F919BF9A260000D1E2 /* Main.storyboard */; };
 		071305FD19BF9A260000D1E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071305FC19BF9A260000D1E2 /* Images.xcassets */; };
 		0713060919BF9A260000D1E2 /* prova_segueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713060819BF9A260000D1E2 /* prova_segueTests.swift */; };
+		0737418219C0777200584516 /* logo-vflme-Gvg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0737418119C0777200584516 /* logo-vflme-Gvg.png */; };
+		0737418419C0777700584516 /* network_monitor-115.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0737418319C0777700584516 /* network_monitor-115.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		0713060219BF9A260000D1E2 /* prova_segueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prova_segueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0713060719BF9A260000D1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0713060819BF9A260000D1E2 /* prova_segueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prova_segueTests.swift; sourceTree = "<group>"; };
+		0737418119C0777200584516 /* logo-vflme-Gvg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-vflme-Gvg.png"; sourceTree = "<group>"; };
+		0737418319C0777700584516 /* network_monitor-115.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "network_monitor-115.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		071305F319BF9A260000D1E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0737418319C0777700584516 /* network_monitor-115.jpg */,
+				0737418119C0777200584516 /* logo-vflme-Gvg.png */,
 				071305F419BF9A260000D1E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				071305FB19BF9A260000D1E2 /* Main.storyboard in Resources */,
+				0737418219C0777200584516 /* logo-vflme-Gvg.png in Resources */,
 				071305FD19BF9A260000D1E2 /* Images.xcassets in Resources */,
+				0737418419C0777700584516 /* network_monitor-115.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +405,7 @@
 				0713060E19BF9A260000D1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0713060F19BF9A260000D1E2 /* Build configuration list for PBXNativeTarget "prova_segueTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				0713061119BF9A260000D1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
